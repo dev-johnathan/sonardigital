@@ -47,8 +47,8 @@ export default function Header() {
     <header className={`site-header ${isHeaderVisible ? 'site-header--visible' : 'site-header--hidden'}`}>
       <div className="site-header__inner container">
         <div className="site-header__topline">
-          <span className="eyebrow">SEO, AdSense e Search Console</span>
-          <p>Portal editorial pronto para publicar, indexar e monetizar com estrutura limpa.</p>
+          <span className="eyebrow">Notícias de tecnologia</span>
+          <p>Conteúdo atualizado e navegação clara em um portal moderno.</p>
         </div>
 
         <div className="site-header__main">

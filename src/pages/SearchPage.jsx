@@ -42,7 +42,7 @@ export default function SearchPage() {
       <section className="page-hero">
         <span className="eyebrow">Busca</span>
         <h1>Encontre notícias por tema, autor ou palavra-chave</h1>
-        <p>Resultados filtrados localmente para demonstrar a estrutura de busca do portal.</p>
+        <p>Use a busca para encontrar conteúdo entre as matérias mais recentes.</p>
 
         <form className="search-panel" role="search" onSubmit={handleSubmit}>
           <label className="sr-only" htmlFor="search-page-query">

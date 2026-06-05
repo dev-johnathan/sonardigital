@@ -166,10 +166,10 @@ function SectionIntro() {
   return (
     <div className="panel panel--soft">
       <span className="eyebrow">Próximo passo</span>
-      <h2>O conteúdo está pronto para Search Console e distribuição orgânica</h2>
+      <h2>O conteúdo está pronto para publicação e distribuição orgânica</h2>
       <p>
-        Esta base já inclui canonical, Article schema, breadcrumbs, sitemap e espaços de anúncio com
-        altura reservada. Basta trocar o conteúdo de demonstração pelos artigos do seu portal.
+        Esta base já inclui canonical, Article schema, breadcrumbs e sitemap. Basta substituir o conteúdo de exemplo
+        pelos artigos do seu portal.
       </p>
     </div>
   );

@@ -1,6 +1,6 @@
 # Sonar Digital
 
-Base em React + JavaScript para um portal editorial de tecnologia preparado para SEO, Google Search Console e AdSense.
+Base em React + JavaScript para um portal editorial de tecnologia com estrutura moderna e navegação clara.
 
 ## O que já vem pronto
 

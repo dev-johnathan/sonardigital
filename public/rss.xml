@@ -5,13 +5,13 @@
     <link>https://example.com</link>
     <description>Portal de notícias de tecnologia com foco em software, hardware, mobile, segurança e mercado.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 05 Jun 2026 01:26:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 02:04:06 GMT</lastBuildDate>
     <atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agentes inteligentes entram na fase de produto e deixam a vitrine</title>
       <link>https://example.com/noticia/agentes-inteligentes-ganham-fluxos-de-trabalho-mais-longos</link>
       <guid isPermaLink="true">https://example.com/noticia/agentes-inteligentes-ganham-fluxos-de-trabalho-mais-longos</guid>
-      <description>Ferramentas com mais contexto e menos fricção começam a encadear tarefas reais em vez de apenas demonstrar capacidade.</description>
+      <description>Ferramentas com mais contexto e menos fricção começam a encadear tarefas reais em vez de apenas mostrar capacidade.</description>
       <pubDate>Thu, 04 Jun 2026 11:15:00 GMT</pubDate>
       <category>Inovação</category>
     </item>

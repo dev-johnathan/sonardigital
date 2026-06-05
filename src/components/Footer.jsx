@@ -8,10 +8,8 @@ export default function Footer() {
         <div className="site-footer__brand">
           <h2>{siteMeta.name}</h2>
           <p>
-            Portal editorial para tecnologia com base sólida em SEO, estrutura de conteúdo e monetização
-            responsável.
+            Portal editorial para tecnologia com base em clareza de leitura e navegação eficiente.
           </p>
-          <a href={`mailto:${siteMeta.contactEmail}`}>{siteMeta.contactEmail}</a>
         </div>
 
         <div className="site-footer__columns">
@@ -41,8 +39,7 @@ export default function Footer() {
       <div className="site-footer__bottom">
         <div className="container">
           <p>
-            © {new Date().getFullYear()} {siteMeta.name}. Conteúdo e estrutura prontos para Search Console,
-            AdSense e distribuição orgânica.
+            © {new Date().getFullYear()} {siteMeta.name}. Conteúdo e estrutura preparados para publicação e distribuição.
           </p>
         </div>
       </div>

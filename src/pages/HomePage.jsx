@@ -29,7 +29,7 @@ export default function HomePage() {
   const heroStats = [
     { value: getTotalArticleCount(), label: 'matérias na base' },
     { value: categoryCards.length, label: 'categorias principais' },
-    { value: 'SEO', label: 'pronto para indexação' },
+    { value: 'Leitura', label: 'foco no conteúdo' },
   ];
 
   return (
@@ -44,10 +44,9 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero__intro">
           <span className="eyebrow">Portal editorial</span>
-          <h1>Notícias de tecnologia com estrutura preparada para Google, AdSense e leitura rápida.</h1>
+          <h1>Notícias de tecnologia com estrutura pensada para leitura rápida.</h1>
           <p>
-            Uma base em React + JavaScript com rotas, dados estruturados, sitemap, páginas institucionais e
-            espaços publicitários pensados para não quebrar a experiência.
+            Uma base em React + JavaScript com rotas, dados estruturados, sitemap e páginas institucionais.
           </p>
 
           <div className="hero__actions">
@@ -95,7 +94,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Categorias"
           title="Organização editorial por tema"
-          description="Estrutura enxuta para facilitar navegação, canonical e rastreamento em Search Console."
+          description="Estrutura enxuta para facilitar navegação, canonical e rastreamento."
           action={
             <Link className="text-link" to="/sobre">
               Como o portal funciona
@@ -113,7 +112,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Últimas"
           title="Publicações recentes"
-          description="Artigos curtos e consistentes, com metadados prontos para Google News e SEO clássico."
+          description="Artigos curtos e consistentes, com metadados alinhados para distribuição digital."
         />
         <div className="content-grid">
           <div className="content-grid__main">

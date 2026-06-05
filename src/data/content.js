@@ -79,7 +79,7 @@ export const articles = [
     slug: 'agentes-inteligentes-ganham-fluxos-de-trabalho-mais-longos',
     title: 'Agentes inteligentes entram na fase de produto e deixam a vitrine',
     summary:
-      'Ferramentas com mais contexto e menos fricção começam a encadear tarefas reais em vez de apenas demonstrar capacidade.',
+      'Ferramentas com mais contexto e menos fricção começam a encadear tarefas reais em vez de apenas mostrar capacidade.',
     categorySlug: 'inovacao',
     categoryName: 'Inovação',
     author: 'Marina Costa',
@@ -98,7 +98,7 @@ export const articles = [
       {
         heading: 'Do protótipo ao fluxo real',
         paragraphs: [
-          'A nova geração de agentes inteligentes já não vive só de demonstração. O foco saiu da curiosidade e entrou na operação, com etapas encadeadas, memória de tarefa e integrações com produtos que o usuário já conhece.',
+          'A nova geração de agentes inteligentes já não vive só de protótipo. O foco saiu da curiosidade e entrou na operação, com etapas encadeadas, memória de tarefa e integrações com produtos que o usuário já conhece.',
           'Essa mudança importa porque transforma a promessa em rotina. Em vez de responder perguntas isoladas, o agente passa a agir dentro de um fluxo: organizar informação, buscar fontes, comparar resultados e devolver uma proposta mais completa.',
         ],
       },
@@ -142,7 +142,7 @@ export const articles = [
         heading: 'Implicação para Ads e UX',
         paragraphs: [
           'Anúncios não precisam virar um obstáculo visual. Quando os espaços são reservados com antecedência, o layout não salta e a leitura segue fluida, o que preserva métricas de experiência e reduz atrito com o leitor.',
-          'A regra prática é simples: conteúdo primeiro, publicidade bem encaixada e métricas monitoradas o tempo todo no Search Console e no AdSense.',
+          'A regra prática é simples: conteúdo primeiro, publicidade bem encaixada e métricas acompanhadas com atenção.',
         ],
       },
     ],
@@ -370,20 +370,20 @@ export const pages = [
     slug: 'sobre',
     title: 'Sobre o portal',
     description:
-      'Entenda a linha editorial, a organização de conteúdo e a estrutura pensada para SEO e monetização responsável.',
+      'Entenda a linha editorial, a organização de conteúdo e a estrutura pensada para conteúdo e monetização responsável.',
     sections: [
       {
         heading: 'Linha editorial',
         paragraphs: [
           'O portal foi desenhado para cobrir tecnologia com equilíbrio entre notícia rápida, análise curta e guias úteis. A prioridade é ajudar o leitor a entender o que mudou e por que isso importa.',
-          'A mesma base editorial também serve como laboratório técnico: o site já nasce com SEO, structured data, sitemap e espaços reservados para anúncios sem comprometer a leitura.',
+          'A mesma base editorial também serve como laboratório técnico: o site já nasce com dados estruturados, sitemap e espaços reservados para anúncios sem comprometer a leitura.',
         ],
       },
       {
         heading: 'Como publicamos',
         paragraphs: [
           'Cada matéria deve passar por apuração, revisão de linguagem, checagem de links e validação de metadados antes de ir ao ar.',
-          'Isso mantém a página pronta para Search Console, AdSense e distribuição em diferentes superfícies do Google.',
+          'Isso mantém a página pronta para publicação e distribuição em diferentes superfícies.',
         ],
         items: ['Título claro', 'Imagem consistente', 'Autor definido', 'Data de publicação visível', 'Canonical correto'],
       },
@@ -432,7 +432,7 @@ export const pages = [
       {
         heading: 'Cookies e publicidade',
         paragraphs: [
-          'O portal pode usar cookies e tecnologias similares para medir audiência, manter preferências e exibir anúncios por meio de serviços de terceiros, como o Google AdSense.',
+          'O portal pode usar cookies e tecnologias similares para medir audiência, manter preferências e exibir anúncios por meio de serviços de terceiros.',
           'Quando regras locais exigirem consentimento, a implementação deve respeitar a legislação aplicável e a escolha do visitante.',
         ],
       },
