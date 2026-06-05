@@ -1261,19 +1261,42 @@ button {
     padding-bottom: 3.2rem;
   }
 
+  .site-header__inner {
+    padding: 0.85rem 0.85rem 1rem;
+  }
+
   .site-header__topline {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.35rem;
+    margin-bottom: 0.85rem;
   }
 
   .site-header__main {
     grid-template-columns: 1fr;
     align-items: flex-start;
+    gap: 0.85rem;
   }
 
   .site-nav {
+    flex-wrap: nowrap;
     justify-content: flex-start;
     gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.7rem 0.15rem 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 999px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav__link {
+    min-width: 9rem;
   }
 
   .site-search {
