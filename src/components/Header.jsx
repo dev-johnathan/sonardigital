@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { navigation, siteMeta } from '../data/content';
+import { getNavigation, getSiteMeta } from '../lib/content';
 
 export default function Header() {
   const navigate = useNavigate();
   const [query, setQuery] = useState('');
+  const [navigationItems, setNavigationItems] = useState(getNavigation());
+  const [siteMetadata, setSiteMetadata] = useState(getSiteMeta());
   const [isHeaderVisible, setHeaderVisible] = useState(true);
 
   useEffect(() => {
@@ -31,6 +33,16 @@ export default function Header() {
     setQuery('');
   };
 
+  useEffect(() => {
+    const handleAdminContentUpdated = () => {
+      setNavigationItems(getNavigation());
+      setSiteMetadata(getSiteMeta());
+    };
+
+    window.addEventListener('admin-content-updated', handleAdminContentUpdated);
+    return () => window.removeEventListener('admin-content-updated', handleAdminContentUpdated);
+  }, []);
+
   return (
     <header className={`site-header ${isHeaderVisible ? 'site-header--visible' : 'site-header--hidden'}`}>
       <div className="site-header__inner container">
@@ -45,8 +57,8 @@ export default function Header() {
               TP
             </span>
             <span className="brand__text">
-              <strong>{siteMeta.name}</strong>
-              <small>{siteMeta.description}</small>
+              <strong>{siteMetadata.name}</strong>
+              <small>{siteMetadata.description}</small>
             </span>
           </Link>
 
@@ -67,7 +79,7 @@ export default function Header() {
         </div>
 
         <nav className="site-nav" aria-label="Navegação principal">
-          {navigation.map((item) => (
+          {navigationItems.map((item) => (
             <NavLink
               key={item.path}
               to={item.path}
