@@ -1,6 +1,11 @@
-import { articles, categories, pages } from '../data/content';
-
-export { articles, categories, pages };
+﻿import { loadAdminContent } from './admin';
+import {
+  articles as defaultArticles,
+  categories as defaultCategories,
+  pages as defaultPages,
+  navigation as defaultNavigation,
+  siteMeta as defaultSiteMeta,
+} from '../data/content';
 
 const normalizeText = (value = '') =>
   value
@@ -27,31 +32,65 @@ const articleSearchText = (article) =>
     ].join(' ')
   );
 
+function loadContent() {
+  return loadAdminContent({
+    articles: defaultArticles,
+    categories: defaultCategories,
+    pages: defaultPages,
+    navigation: defaultNavigation,
+    siteMeta: defaultSiteMeta,
+  });
+}
+
+export function getSiteMeta() {
+  return loadContent().siteMeta;
+}
+
+export function getNavigation() {
+  return loadContent().navigation;
+}
+
+export function getCategories() {
+  return loadContent().categories;
+}
+
+export function getPages() {
+  return loadContent().pages;
+}
+
+export function getAdminContent() {
+  return loadContent();
+}
+
+export function getAllArticles(includeDrafts = false) {
+  return loadContent().articles.filter((article) => includeDrafts || article.published !== false);
+}
+
 export function getCategoryBySlug(slug) {
-  return categories.find((category) => category.slug === slug);
+  return getCategories().find((category) => category.slug === slug);
 }
 
 export function getPageBySlug(slug) {
-  return pages.find((page) => page.slug === slug);
+  return getPages().find((page) => page.slug === slug);
 }
 
 export function getArticleBySlug(slug) {
-  return articles.find((article) => article.slug === slug);
+  return getAllArticles(true).find((article) => article.slug === slug);
 }
 
-export function getLatestArticles(limit = articles.length) {
-  return [...articles].sort(sortByDateDesc).slice(0, limit);
+export function getLatestArticles(limit = getAllArticles().length) {
+  return [...getAllArticles()].sort(sortByDateDesc).slice(0, limit);
 }
 
 export function getFeaturedArticles(limit = 3) {
-  return [...articles]
+  return [...getAllArticles()]
     .filter((article) => article.featured)
     .sort(sortByDateDesc)
     .slice(0, limit);
 }
 
 export function getArticlesByCategory(slug) {
-  return [...articles].filter((article) => article.categorySlug === slug).sort(sortByDateDesc);
+  return [...getAllArticles()].filter((article) => article.categorySlug === slug).sort(sortByDateDesc);
 }
 
 export function getLatestFromCategory(slug, limit = 4) {
@@ -59,7 +98,7 @@ export function getLatestFromCategory(slug, limit = 4) {
 }
 
 export function getRelatedArticles(article, limit = 3) {
-  return [...articles]
+  return [...getAllArticles()]
     .filter((candidate) => candidate.slug !== article.slug)
     .sort((left, right) => {
       const categoryBoost =
@@ -79,15 +118,20 @@ export function searchArticles(query) {
     return getLatestArticles();
   }
 
-  return [...articles]
+  return [...getAllArticles()]
     .filter((article) => articleSearchText(article).includes(search))
     .sort(sortByDateDesc);
 }
 
 export function getArticleCountByCategory(slug) {
-  return articles.filter((article) => article.categorySlug === slug).length;
+  return getAllArticles().filter((article) => article.categorySlug === slug).length;
 }
 
 export function getTotalArticleCount() {
-  return articles.length;
+  return getAllArticles().length;
 }
+
+export const categories = getCategories();
+export const pages = getPages();
+export const navigation = getNavigation();
+export const siteMeta = getSiteMeta();
