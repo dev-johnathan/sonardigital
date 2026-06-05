@@ -232,7 +232,7 @@ button {
   letter-spacing: 0.08em;
   background:
     radial-gradient(circle at 25% 20%, rgba(255, 255, 255, 0.45), transparent 35%),
-    linear-gradient(135deg, #0f172a 0%, #0ea5e9 55%, #14b8a6 100%);
+    linear-gradient(135deg, var(--surface-dark) 0%, var(--accent) 55%, var(--accent-3) 100%);
   box-shadow: 0 16px 30px rgba(14, 165, 233, 0.24);
   flex: none;
 }
@@ -347,7 +347,7 @@ button {
 
 .site-search button,
 .search-panel button {
-  background: linear-gradient(135deg, #0f172a 0%, #0ea5e9 100%);
+  background: linear-gradient(135deg, var(--surface-dark) 0%, var(--accent) 100%);
   color: #fff;
   padding: 0.72rem 1.05rem;
   box-shadow: 0 14px 24px rgba(15, 23, 42, 0.18);
@@ -363,7 +363,7 @@ button {
 }
 
 .button--primary {
-  background: linear-gradient(135deg, #0f172a 0%, #0ea5e9 100%);
+  background: linear-gradient(135deg, var(--surface-dark) 0%, var(--accent) 100%);
   color: #fff;
   box-shadow: 0 16px 28px rgba(14, 165, 233, 0.2);
 }
@@ -742,6 +742,7 @@ button {
 
 .article-card--compact {
   grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-rows: auto;
 }
 
 .article-card--compact .article-card__media {
@@ -751,6 +752,7 @@ button {
 
 .article-card--compact .article-card__content {
   padding: 0.95rem;
+  min-width: 0;
 }
 
 .article-card--compact .article-card__content h3 {

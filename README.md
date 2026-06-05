@@ -5,9 +5,10 @@ Base em React + JavaScript para um portal editorial de tecnologia com estrutura 
 ## O que já vem pronto
 
 - Rotas para home, categorias, artigos, busca e páginas institucionais.
+- Roteamento SPA com fallback para todas as rotas no Vercel.
 - `Article`, `NewsArticle`, `WebSite` e `BreadcrumbList` em JSON-LD.
 - `sitemap.xml`, `news-sitemap.xml`, `rss.xml`, `robots.txt` e `ads.txt` gerados no build.
-- Espaços reservados para anúncios com layout fixo para evitar CLS.
+- Espaços reservados para anúncios e layout de cards responsivo.
 - Páginas de `Sobre`, `Contato`, `Privacidade` e `Termos`.
 
 ## Como rodar
@@ -23,7 +24,17 @@ npm run dev
 npm run build
 ```
 
-O build gera os arquivos de SEO dentro de `public/` antes de compilar a aplicação.
+O build gera os arquivos de SEO dentro de `public/` antes de compilar a aplicação, incluindo sitemaps e RSS.
+
+## Deploy
+
+O projeto já inclui `vercel.json` para suportar rotas SPA no Vercel.
+
+```bash
+npx vercel --prod
+```
+
+Em um deploy Vercel, defina `VITE_SITE_URL` e outras variáveis em `Environment Variables`.
 
 ## Variáveis de ambiente
 
@@ -38,7 +49,7 @@ VITE_ADSENSE_SLOT_ARTICLE=1234567891
 VITE_ADSENSE_SLOT_SIDEBAR=1234567892
 ```
 
-`VITE_SITE_URL` é importante para canonical, sitemap e Open Graph.
+`VITE_SITE_URL` é importante para canonical, sitemap e Open Graph. No Vercel, configure essas variáveis em `Environment Variables` para manter a publicação consistente.
 
 ## Google
 
