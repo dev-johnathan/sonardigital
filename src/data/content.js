@@ -25,43 +25,43 @@ export const categories = [
   {
     slug: 'inovacao',
     name: 'Inovação',
-    description: 'Tendências, automação e impacto prático no dia a dia.',
+    description: 'Ferramentas e processos que mudam a forma como empresas entregam valor com tecnologia.',
     accent: '#14b8a6',
   },
   {
     slug: 'software',
     name: 'Software e Dev',
-    description: 'Frameworks, ferramentas, SEO técnico e boas práticas web.',
+    description: 'Tendências em desenvolvimento, SEO técnico e plataformas que sustentam sites modernos.',
     accent: '#3b82f6',
   },
   {
     slug: 'hardware',
     name: 'Hardware',
-    description: 'PCs, chips, notebooks e dispositivos para trabalho e casa.',
+    description: 'Componentes, notebooks e infraestrutura física para quem constrói e opera tecnologia.',
     accent: '#f97316',
   },
   {
     slug: 'mobile',
     name: 'Mobile',
-    description: 'Android, iOS, apps e o ecossistema que move o bolso.',
+    description: 'Sistemas, apps e dispositivos móveis que impactam produtividade e consumo digital.',
     accent: '#a855f7',
   },
   {
     slug: 'seguranca',
     name: 'Segurança',
-    description: 'Privacidade, phishing, infraestrutura e proteção digital.',
+    description: 'Risco, defesa e controles para proteger dados, usuários e ambientes conectados.',
     accent: '#ef4444',
   },
   {
     slug: 'mercado',
     name: 'Mercado',
-    description: 'Startups, investimento, plataformas e estratégia de produto.',
+    description: 'Financiamento, estratégias e movimentações do ecossistema de tecnologia.',
     accent: '#22c55e',
   },
   {
     slug: 'gadgets',
     name: 'Gadgets',
-    description: 'Wearables, áudio, realidade mista e acessórios conectados.',
+    description: 'Dispositivos e acessórios com aplicações concretas em trabalho, saúde e suporte técnico.',
     accent: '#0ea5e9',
   },
 ];
@@ -79,7 +79,7 @@ export const articles = [
     slug: 'agentes-inteligentes-ganham-fluxos-de-trabalho-mais-longos',
     title: 'Agentes inteligentes entram na fase de produto e deixam a vitrine',
     summary:
-      'Ferramentas com mais contexto e menos fricção começam a encadear tarefas reais em vez de apenas mostrar capacidade.',
+      'Plataformas de agentes com contexto longo agora são testadas em fluxo de atendimento, análise de contratos e preparação de briefings.',
     categorySlug: 'inovacao',
     categoryName: 'Inovação',
     author: 'Marina Costa',
@@ -90,23 +90,23 @@ export const articles = [
     featured: true,
     tags: ['agentes', 'automação', 'produtividade'],
     highlights: [
-      'O contexto longo reduz o custo de alternar entre ferramentas e sistemas.',
-      'A supervisão humana ainda é necessária para conter erros e vieses.',
-      'Portais podem usar automação para triagem, nunca para publicar sem revisão.',
+      'Fluxos de trabalho passam a incluir memória, verificação e integração com sistemas existentes.',
+      'A voz humana mantém o controle editorial e evita automação sem contexto.',
+      'O valor real aparece na entrega de tarefas completas, não em respostas isoladas.',
     ],
     sections: [
       {
-        heading: 'Do protótipo ao fluxo real',
+        heading: 'Fluxo operacional em vez de demonstração',
         paragraphs: [
-          'A nova geração de agentes inteligentes já não vive só de protótipo. O foco saiu da curiosidade e entrou na operação, com etapas encadeadas, memória de tarefa e integrações com produtos que o usuário já conhece.',
-          'Essa mudança importa porque transforma a promessa em rotina. Em vez de responder perguntas isoladas, o agente passa a agir dentro de um fluxo: organizar informação, buscar fontes, comparar resultados e devolver uma proposta mais completa.',
+          'O foco mudou de uma vitrine de capacidades para a aplicação em fluxos reais, como triagem de e-mails, preparação de relatórios e orientação de processos internos.',
+          'Em vez de gerar um único texto, o agente concentra tarefas: coletar dados, sintetizar informações e propor um rascunho pronto para revisão.',
         ],
       },
       {
-        heading: 'O efeito no mercado editorial',
+        heading: 'Por que isso importa para a redação',
         paragraphs: [
-          'Para um portal de notícias, a oportunidade está em usar automação para acelerar triagem, sumarização e análise de tendência, sempre com revisão humana. Isso melhora produtividade sem abrir mão de credibilidade.',
-          'O ganho final vem quando a automação ajuda o time a publicar com mais consistência, manter metadados corretos e enriquecer a experiência do leitor sem sacrificar velocidade ou transparência.',
+          'No jornalismo de tecnologia, a vantagem vem de agilizar etapas repetitivas sem deixar de checar fontes e ajustar tom editorial.',
+          'A automação que funciona melhor integra o trabalho humano no centro, usando IA como suporte, não como substituto.',
         ],
       },
     ],
@@ -115,7 +115,7 @@ export const articles = [
     slug: 'google-releva-experiencia-e-layout-estavel-para-scenarios-com-ads',
     title: 'Google reforça experiência visual e estabilidade como base de busca',
     summary:
-      'Páginas rápidas, estáveis e bem estruturadas continuam sendo as melhores candidatas para Search, Discover e monetização saudável.',
+      'Uma atualização de busca mostra que páginas estáveis, rápidas e com anúncios planejados continuam ganhando vantagem em Search e Discover.',
     categorySlug: 'software',
     categoryName: 'Software e Dev',
     author: 'Rafael Nunes',
@@ -126,23 +126,23 @@ export const articles = [
     featured: true,
     tags: ['SEO', 'Google', 'Core Web Vitals', 'indexação'],
     highlights: [
-      'Estrutura semântica ajuda o Google a entender o conteúdo da página.',
-      'Layout instável derruba a experiência e afeta a confiança do usuário.',
-      'Sitemap e canonical continuam essenciais em sites grandes.',
+      'Estabilidade visual e velocidade continuam determinantes para ranking e experiência.',
+      'Anúncios bem posicionados evitam saltos de layout e preservam métricas de engajamento.',
+      'Dados estruturados e canonical consistentes ajudam o Google a indexar a página corretamente.',
     ],
     sections: [
       {
-        heading: 'O que continua valendo',
+        heading: 'A prioridade do usuário permanece a mesma',
         paragraphs: [
-          'Quem publica conteúdo na web ainda precisa do básico bem feito: HTML limpo, links crawláveis, canonical consistente e dados estruturados coerentes com o conteúdo da página.',
-          'Em um portal de notícias, isso vale tanto para a home quanto para páginas de categoria e artigo. Se o Google não consegue ler com clareza a hierarquia do site, a descoberta fica mais lenta e menos previsível.',
+          'O Google reforça que, mesmo com monetização ativa, a página precisa ser previsível e usável desde o primeiro pixel.',
+          'Isso exige reservar espaços de anúncio, evitar mudanças bruscas de layout e garantir que o conteúdo central esteja pronto para leitura imediatamente.',
         ],
       },
       {
-        heading: 'Implicação para Ads e UX',
+        heading: 'Implicações para conteúdo e publicidade',
         paragraphs: [
-          'Anúncios não precisam virar um obstáculo visual. Quando os espaços são reservados com antecedência, o layout não salta e a leitura segue fluida, o que preserva métricas de experiência e reduz atrito com o leitor.',
-          'A regra prática é simples: conteúdo primeiro, publicidade bem encaixada e métricas acompanhadas com atenção.',
+          'Portais de notícia que exibem anúncios precisam pensar a experiência como um todo: texto claro, imagens estáveis e blocos publicitários que não prejudiquem a leitura.',
+          'A vantagem competitiva está na combinação de receita e usabilidade, não na colocação de anúncios a qualquer custo.',
         ],
       },
     ],
@@ -151,7 +151,7 @@ export const articles = [
     slug: 'notebook-arm-promete-autonomia-de-dois-dias-em-uso-misto',
     title: 'Notebook ARM quer autonomia de dois dias e resfriamento passivo',
     summary:
-      'A próxima leva de notebooks ultracompactos tenta unir autonomia, silêncio e desempenho suficiente para trabalho de escritório e criação leve.',
+      'Novos notebooks ARM prometem mais de um dia inteiro de uso leve com resfriamento silencioso e consumo controlado.',
     categorySlug: 'hardware',
     categoryName: 'Hardware',
     author: 'Camila Duarte',
@@ -162,23 +162,23 @@ export const articles = [
     featured: false,
     tags: ['notebook', 'ARM', 'bateria', 'hardware'],
     highlights: [
-      'O foco saiu de pico de desempenho para eficiência sustentada.',
-      'A ausência de ventoinha reduz ruído, mas exige ótimo gerenciamento térmico.',
-      'Para publicadores, hardware bom vira pauta se mostrar uso real, não só benchmark.',
+      'O foco agora é autonomia real para tarefas de escritório e criação leve.',
+      'Resfriamento passivo reduz ruído, mas exige um projeto térmico eficiente.',
+      'A utilidade prática vale mais que números máximos de benchmark.',
     ],
     sections: [
       {
-        heading: 'Eficiência acima de pico',
+        heading: 'Autonomia avaliada no dia a dia',
         paragraphs: [
-          'Os novos notebooks ARM trabalham com outra proposta: entregar mais autonomia e menos calor em tarefas comuns, mesmo que o desempenho bruto em certos cenários não seja o maior do mercado.',
-          'Para quem escreve, pesquisa e administra publicações, isso significa uma máquina mais silenciosa e previsível, com bateria para atravessar a rotina sem depender de tomada a cada reunião.',
+          'Fabricantes estão priorizando o uso real em texto, planilhas e navegação, em vez de spec sheets focados em pico de desempenho.',
+          'O objetivo é oferecer um equipamento que aguente sessões de trabalho longas sem precisar de carga a cada poucas horas.',
         ],
       },
       {
-        heading: 'Onde a proposta faz sentido',
+        heading: 'Quando essa proposta faz sentido',
         paragraphs: [
-          'O segmento deve funcionar melhor para jornalismo, operação e desenvolvimento web do que para cargas pesadas de renderização ou edição avançada.',
-          'A equação ideal depende de software otimizado, boa compatibilidade e preço competitivo. Sem isso, a eficiência vira argumento técnico bonito e pouca vantagem concreta.',
+          'Esse tipo de notebook costuma ser atraente para profissionais remotos, jornalistas e equipes que precisam de silêncio e mobilidade.',
+          'A proposta perde força quando o foco é edição multimídia pesada ou jogos, porque o desempenho sustentado é o principal diferencial.',
         ],
       },
     ],
@@ -187,7 +187,7 @@ export const articles = [
     slug: 'phishing-com-ia-exige-novos-habitos-de-seguranca',
     title: 'Phishing com IA acelera ataques e exige novos hábitos de segurança',
     summary:
-      'Mensagens mais convincentes e personalizadas tornam golpes menos óbvios para equipes pequenas e usuários comuns.',
+      'Golpes de phishing com texto gerado por IA estão mais convincentes e exigem verificação atenta de remetentes e domínios.',
     categorySlug: 'seguranca',
     categoryName: 'Segurança',
     author: 'Bruno Leite',
@@ -198,23 +198,23 @@ export const articles = [
     featured: false,
     tags: ['segurança', 'phishing', 'IA', 'privacidade'],
     highlights: [
-      'IA reduz erros de linguagem e dá aparência de autenticidade ao golpe.',
-      'Verificação em dois fatores e checagem de domínio seguem obrigatórias.',
+      'Mensagens personalizadas e mais naturais reduzem sinais óbvios de fraude.',
+      'MFA e revisão de domínio continuam as defesas mais eficazes.',
       'Treinamento de equipe é tão importante quanto ferramentas de proteção.',
     ],
     sections: [
       {
-        heading: 'Golpes mais plausíveis',
+        heading: 'Mensagens mais próximas do real',
         paragraphs: [
-          'Ferramentas generativas baixaram a barreira para golpes por e-mail, mensagem e até ligação. O texto sai mais natural, o tom parece mais próximo de um contato legítimo e a taxa de erro cai.',
-          'Isso não significa que a defesa ficou impossível. Significa que o usuário precisa olhar para o domínio, o contexto e o pedido antes de clicar, baixar ou responder.',
+          'Ferramentas de IA tornaram os golpes mais parecidos com comunicações oficiais, com termos e formatos que imitam cobranças, atualizações de conta e avisos importantes.',
+          'Isso exige que a pessoa revise remetente, endereço do link e a solicitação antes de clicar ou baixar qualquer arquivo.',
         ],
       },
       {
-        heading: 'Como o portal pode cobrir o tema',
+        heading: 'A resposta certa para equipes e leitores',
         paragraphs: [
-          'Artigos de segurança funcionam melhor quando trazem exemplos claros, checklists práticos e links para ferramentas confiáveis. A prioridade deve ser ensinar, não alarmar.',
-          'Para um portal de tecnologia, o ganho editorial está em transformar notícia em orientação útil: o que mudou, como o golpe funciona e o que o leitor precisa fazer hoje.',
+          'A melhor defesa combina autenticação em dois fatores, políticas de senha fortes e treinamento contínuo da equipe.',
+          'Para leitores, o hábito correto é buscar mensagens por canais oficiais. Para empresas, é limitar a exposição de informações sensíveis em comunicações públicas.',
         ],
       },
     ],
@@ -223,7 +223,7 @@ export const articles = [
     slug: 'android-17-aposta-em-widgets-contextuais-e-janelas-fluidas',
     title: 'Android 17 aposta em widgets contextuais e janelas mais fluidas',
     summary:
-      'A próxima versão do sistema amplia o papel dos widgets e melhora a transição entre consumo rápido e multitarefa.',
+      'A nova versão amplia widgets úteis e melhora a transição entre apps para uma experiência móvel mais fluida.',
     categorySlug: 'mobile',
     categoryName: 'Mobile',
     author: 'Julia Almeida',
@@ -234,23 +234,23 @@ export const articles = [
     featured: false,
     tags: ['Android', 'mobile', 'widgets', 'apps'],
     highlights: [
-      'Widgets mais inteligentes reduzem a necessidade de abrir aplicativos o tempo todo.',
-      'A interface precisa permanecer consistente em telas pequenas e dobráveis.',
-      'Para apps de notícias, isso favorece leitura rápida e notificações úteis.',
+      'Widgets contextuais entregam informação no momento certo.',
+      'Multitarefa fluida melhora uso em telas grandes e dobráveis.',
+      'Apps de notícias ganham presença sem exigir abertura total.',
     ],
     sections: [
       {
-        heading: 'Interface com menos atrito',
+        heading: 'Menos cliques, mais contexto',
         paragraphs: [
-          'A ideia dos widgets contextuais é mostrar a informação certa no momento certo, sem obrigar o usuário a abrir dezenas de aplicativos para tarefas pequenas.',
-          'Em celulares modernos, isso representa menos toque e mais clareza. O sistema deixa de ser só uma camada de distribuição e passa a ser também uma camada de decisão rápida.',
+          'A ênfase nos widgets contextuais busca antecipar tarefas, como consultar itinerários, acompanhar resultados ou revisar relatórios sem abrir o app principal.',
+          'Isso reduz atrito e torna o telefone mais útil no cotidiano, especialmente para quem alterna entre trabalho e consumo rápido de informação.',
         ],
       },
       {
         heading: 'Oportunidade para publicadores',
         paragraphs: [
-          'Portais que produzem conteúdo curto, atual e segmentado podem se beneficiar de cartões de notícia, alertas e chamadas mais objetivas.',
-          'Para funcionar, porém, o conteúdo precisa ser estruturado com metadados corretos, títulos claros e imagens consistentes. Sem isso, a experiência não escala.',
+          'Portais que trabalham com notícia e atualização ao vivo podem tirar proveito de formatos compactos e chamadas diretas.',
+          'Sem essa adaptação, o conteúdo corre o risco de ficar invisível na nova forma de interação do sistema.',
         ],
       },
     ],
@@ -259,7 +259,7 @@ export const articles = [
     slug: 'startups-de-tecnologia-atraem-capital-com-foco-em-verticalizacao',
     title: 'Startups de tecnologia atraem capital com foco em verticalização',
     summary:
-      'Investidores seguem seletivos, mas produtos que resolvem dores específicas continuam recebendo atenção e aporte.',
+      'Investidores seguem seletivos, mas preferem startups com produto definido, receita recorrente e impacto claro em um segmento.',
     categorySlug: 'mercado',
     categoryName: 'Mercado',
     author: 'Marina Costa',
@@ -270,23 +270,23 @@ export const articles = [
     featured: false,
     tags: ['mercado', 'startups', 'investimento'],
     highlights: [
-      'Soluções verticais vencem quando resolvem problemas específicos com retorno claro.',
-      'Crescimento sem retenção já não basta para convencer investidores.',
-      'Portais precisam ligar notícia a impacto: produto, receita e adoção.',
+      'Investidores valorizam retorno claro em nichos definidos.',
+      'Retenção e receita pagante importam mais do que crescimento amplo.',
+      'Cobertura precisa conectar rodada à experiência do cliente.',
     ],
     sections: [
       {
-        heading: 'Capital mais seletivo',
+        heading: 'Capital com régua mais alta',
         paragraphs: [
-          'O mercado continua aberto para soluções tecnológicas, mas a régua subiu. Já não basta prometer automação ampla; é preciso mostrar solução vertical, integração e economia mensurável para o cliente.',
-          'Essa mudança favorece startups com foco em nichos como saúde, jurídico, atendimento e vendas. Quanto mais clara a dor, mais fácil justificar investimento e adoção.',
+          'O interesse no setor não desapareceu, mas ficou mais exigente: startups precisam mostrar casos de uso reais e clientes dispostos a pagar.',
+          'Isso favorece nichos como logística, saúde e serviços de campo, onde o valor pode ser medido com números objetivos.',
         ],
       },
       {
-        heading: 'O que isso muda para a cobertura',
+        heading: 'Como escrever sobre isso',
         paragraphs: [
-          'Notícias de mercado ficam melhores quando explicam o modelo de negócio, o estágio da empresa e a tese que sustenta o aporte.',
-          'Isso ajuda o leitor a entender por que o movimento importa, e não apenas quem levantou capital.',
+          'Um texto de mercado forte descreve o modelo de negócio, o estágio da empresa e a tese por trás do aporte.',
+          'Assim o leitor entende por que o investimento é relevante, além de simplesmente saber qual startup recebeu dinheiro.',
         ],
       },
     ],
@@ -295,7 +295,7 @@ export const articles = [
     slug: 'framework-js-ajusta-pipeline-para-server-components-e-performance',
     title: 'Framework JS ganha atualização com foco em server components e performance',
     summary:
-      'A nova versão tenta reduzir custo de execução no cliente e simplificar o caminho até experiências mais rápidas.',
+      'A atualização prioriza server components para reduzir JavaScript no cliente e acelerar o carregamento inicial.',
     categorySlug: 'software',
     categoryName: 'Software e Dev',
     author: 'Rafael Nunes',
@@ -306,23 +306,23 @@ export const articles = [
     featured: false,
     tags: ['JavaScript', 'framework', 'performance', 'web'],
     highlights: [
-      'Menos JavaScript no cliente tende a melhorar carregamento e interatividade.',
-      'Arquitetura de dados precisa ser pensada junto com renderização.',
-      'Páginas de notícias se beneficiam de renderização clara e conteúdos indexáveis.',
+      'Renderização no servidor reduz a quantidade de código que precisa rodar no navegador.',
+      'Menos hidratação significa páginas mais rápidas e estáveis.',
+      'Portais de notícia se beneficiam de HTML completo já no primeiro carregamento.',
     ],
     sections: [
       {
-        heading: 'Menos trabalho no navegador',
+        heading: 'Menos trabalho para o navegador',
         paragraphs: [
-          'A atualização reforça um caminho conhecido: mover parte do trabalho para o servidor, reduzir hidratação desnecessária e deixar a navegação mais estável para o usuário.',
-          'Isso não significa abandonar componentes interativos. Significa reservar a interatividade para onde ela realmente agrega valor, sem inflar a página inteira com scripts pesados.',
+          'A nova versão reforça a tendência de mover lógica para o servidor, entregando páginas interativas sem forçar o navegador a compilar grandes blocos de JavaScript.',
+          'Isso é particularmente útil para sites com muito conteúdo editorial, onde a prioridade é leitura e indexação imediata.',
         ],
       },
       {
-        heading: 'O que importa para portais',
+        heading: 'Por que isso importa para sites de notícia',
         paragraphs: [
-          'Sites editoriais precisam combinar renderização eficiente com SEO previsível. Isso inclui headings corretos, breadcrumbs, conteúdo legível no HTML e marcação estruturada consistente.',
-          'Quando a base técnica está boa, o conteúdo trabalha melhor. Quando a base quebra, nenhum título forte compensa a lentidão ou o rastreamento ruim.',
+          'Páginas que chegam prontas ao HTML ajudam crawlers e mantêm a experiência mais estável, especialmente em conexões móveis.',
+          'A arquitetura também exige que dados e componentes sejam planejados de forma integrada, mas o retorno aparece em velocidade e SEO mais consistentes.',
         ],
       },
     ],
@@ -331,7 +331,7 @@ export const articles = [
     slug: 'headsets-de-realidade-mista-ganham-preco-mais-acessivel',
     title: 'Headsets de realidade mista ficam mais acessíveis para uso corporativo',
     summary:
-      'O setor tenta sair do nicho premium e provar valor em treinamento, suporte remoto e visualização de produto.',
+      'A tecnologia busca provas de valor em treinamento, suporte remoto e visualização de projetos, em vez de ser apenas uma promessa futurista.',
     categorySlug: 'gadgets',
     categoryName: 'Gadgets',
     author: 'Camila Duarte',
@@ -342,23 +342,23 @@ export const articles = [
     featured: false,
     tags: ['realidade mista', 'gadget', 'XR', 'empresa'],
     highlights: [
-      'O mercado quer mostrar utilidade concreta antes de prometer revoluções.',
-      'Treinamento e suporte remoto são usos mais fáceis de justificar no curto prazo.',
-      'Conteúdo editorial precisa fugir do hype e trazer casos de uso reais.',
+      'O foco agora é aplicação corporativa, como treinamento e suporte remoto.',
+      'A viabilidade depende de comprovar redução de custos ou ganho de produtividade.',
+      'A cobertura precisa mostrar cenário de uso real, não promessas vagas.',
     ],
     sections: [
       {
-        heading: 'De vitrine para ferramenta',
+        heading: 'Ferramenta para empresas, não apenas vitrine',
         paragraphs: [
-          'A realidade mista começa a ser vendida menos como promessa futurista e mais como ferramenta operacional para empresas que precisam treinar equipes, mostrar projetos e acompanhar procedimentos.',
-          'Isso é importante porque desloca a conversa de curiosidade para produtividade. Quando a tecnologia resolve um fluxo caro, a adoção deixa de ser experimental.',
+          'Os headsets estão sendo reposicionados para casos de uso práticos, como instrução de campo, inspeção remota e revisão de projetos.',
+          'Quando a tecnologia demonstra economia de tempo e menos deslocamento, a adoção deixa de ser experimental.',
         ],
       },
       {
-        heading: 'Onde a cobertura editorial ganha força',
+        heading: 'O que o leitor quer saber',
         paragraphs: [
-          'Portais conseguem diferenciar pauta quando mostram preço, cenário de uso, limitações e o perfil de empresa que realmente se beneficia.',
-          'O leitor quer contexto, não só anúncio de produto. E contexto vem com comparação, dados e clareza sobre custo-benefício.',
+          'Uma pauta forte compara preço, casos de uso e as limitações da solução, especialmente para empresas que avaliam investimento.',
+          'O foco deve ser o retorno prático: menos viagens, menos erros e melhor colaboração entre equipes.',
         ],
       },
     ],

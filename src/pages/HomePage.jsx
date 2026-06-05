@@ -46,7 +46,7 @@ export default function HomePage() {
           <span className="eyebrow">Portal editorial</span>
           <h1>Notícias de tecnologia com estrutura pensada para leitura rápida.</h1>
           <p>
-            Uma base em React + JavaScript com rotas, dados estruturados, sitemap e páginas institucionais.
+            Cobertura técnica organizada para leitura rápida, com navegação clara e espaços pensados para monetização responsável.
           </p>
 
           <div className="hero__actions">
@@ -77,7 +77,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Cobertura"
           title="Pautas quentes do momento"
-          description="Os temas mais importantes da tecnologia organizados para leitura rápida e indexação clara."
+          description="Análises sobre lançamentos, segurança e infraestrutura para leitores que acompanham tecnologia."
         />
         <div className="featured-stack">
           {secondaryFeatured.map((article) => (
@@ -94,7 +94,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Categorias"
           title="Organização editorial por tema"
-          description="Estrutura enxuta para facilitar navegação, canonical e rastreamento."
+          description="Temas selecionados para facilitar navegação, descoberta e indexação editorial."
           action={
             <Link className="text-link" to="/sobre">
               Como o portal funciona

@@ -5,13 +5,13 @@
     <link>https://example.com</link>
     <description>Portal de notícias de tecnologia com foco em software, hardware, mobile, segurança e mercado.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 05 Jun 2026 02:08:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 02:16:46 GMT</lastBuildDate>
     <atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agentes inteligentes entram na fase de produto e deixam a vitrine</title>
       <link>https://example.com/noticia/agentes-inteligentes-ganham-fluxos-de-trabalho-mais-longos</link>
       <guid isPermaLink="true">https://example.com/noticia/agentes-inteligentes-ganham-fluxos-de-trabalho-mais-longos</guid>
-      <description>Ferramentas com mais contexto e menos fricção começam a encadear tarefas reais em vez de apenas mostrar capacidade.</description>
+      <description>Plataformas de agentes com contexto longo agora são testadas em fluxo de atendimento, análise de contratos e preparação de briefings.</description>
       <pubDate>Thu, 04 Jun 2026 11:15:00 GMT</pubDate>
       <category>Inovação</category>
     </item>
@@ -19,7 +19,7 @@
       <title>Google reforça experiência visual e estabilidade como base de busca</title>
       <link>https://example.com/noticia/google-releva-experiencia-e-layout-estavel-para-scenarios-com-ads</link>
       <guid isPermaLink="true">https://example.com/noticia/google-releva-experiencia-e-layout-estavel-para-scenarios-com-ads</guid>
-      <description>Páginas rápidas, estáveis e bem estruturadas continuam sendo as melhores candidatas para Search, Discover e monetização saudável.</description>
+      <description>Uma atualização de busca mostra que páginas estáveis, rápidas e com anúncios planejados continuam ganhando vantagem em Search e Discover.</description>
       <pubDate>Thu, 04 Jun 2026 10:30:00 GMT</pubDate>
       <category>Software e Dev</category>
     </item>
@@ -27,7 +27,7 @@
       <title>Notebook ARM quer autonomia de dois dias e resfriamento passivo</title>
       <link>https://example.com/noticia/notebook-arm-promete-autonomia-de-dois-dias-em-uso-misto</link>
       <guid isPermaLink="true">https://example.com/noticia/notebook-arm-promete-autonomia-de-dois-dias-em-uso-misto</guid>
-      <description>A próxima leva de notebooks ultracompactos tenta unir autonomia, silêncio e desempenho suficiente para trabalho de escritório e criação leve.</description>
+      <description>Novos notebooks ARM prometem mais de um dia inteiro de uso leve com resfriamento silencioso e consumo controlado.</description>
       <pubDate>Wed, 03 Jun 2026 20:20:00 GMT</pubDate>
       <category>Hardware</category>
     </item>
@@ -35,7 +35,7 @@
       <title>Phishing com IA acelera ataques e exige novos hábitos de segurança</title>
       <link>https://example.com/noticia/phishing-com-ia-exige-novos-habitos-de-seguranca</link>
       <guid isPermaLink="true">https://example.com/noticia/phishing-com-ia-exige-novos-habitos-de-seguranca</guid>
-      <description>Mensagens mais convincentes e personalizadas tornam golpes menos óbvios para equipes pequenas e usuários comuns.</description>
+      <description>Golpes de phishing com texto gerado por IA estão mais convincentes e exigem verificação atenta de remetentes e domínios.</description>
       <pubDate>Wed, 03 Jun 2026 14:40:00 GMT</pubDate>
       <category>Segurança</category>
     </item>
@@ -43,7 +43,7 @@
       <title>Android 17 aposta em widgets contextuais e janelas mais fluidas</title>
       <link>https://example.com/noticia/android-17-aposta-em-widgets-contextuais-e-janelas-fluidas</link>
       <guid isPermaLink="true">https://example.com/noticia/android-17-aposta-em-widgets-contextuais-e-janelas-fluidas</guid>
-      <description>A próxima versão do sistema amplia o papel dos widgets e melhora a transição entre consumo rápido e multitarefa.</description>
+      <description>A nova versão amplia widgets úteis e melhora a transição entre apps para uma experiência móvel mais fluida.</description>
       <pubDate>Wed, 03 Jun 2026 12:10:00 GMT</pubDate>
       <category>Mobile</category>
     </item>
@@ -51,7 +51,7 @@
       <title>Startups de tecnologia atraem capital com foco em verticalização</title>
       <link>https://example.com/noticia/startups-de-tecnologia-atraem-capital-com-foco-em-verticalizacao</link>
       <guid isPermaLink="true">https://example.com/noticia/startups-de-tecnologia-atraem-capital-com-foco-em-verticalizacao</guid>
-      <description>Investidores seguem seletivos, mas produtos que resolvem dores específicas continuam recebendo atenção e aporte.</description>
+      <description>Investidores seguem seletivos, mas preferem startups com produto definido, receita recorrente e impacto claro em um segmento.</description>
       <pubDate>Tue, 02 Jun 2026 21:05:00 GMT</pubDate>
       <category>Mercado</category>
     </item>
@@ -59,7 +59,7 @@
       <title>Framework JS ganha atualização com foco em server components e performance</title>
       <link>https://example.com/noticia/framework-js-ajusta-pipeline-para-server-components-e-performance</link>
       <guid isPermaLink="true">https://example.com/noticia/framework-js-ajusta-pipeline-para-server-components-e-performance</guid>
-      <description>A nova versão tenta reduzir custo de execução no cliente e simplificar o caminho até experiências mais rápidas.</description>
+      <description>A atualização prioriza server components para reduzir JavaScript no cliente e acelerar o carregamento inicial.</description>
       <pubDate>Tue, 02 Jun 2026 18:40:00 GMT</pubDate>
       <category>Software e Dev</category>
     </item>
@@ -67,7 +67,7 @@
       <title>Headsets de realidade mista ficam mais acessíveis para uso corporativo</title>
       <link>https://example.com/noticia/headsets-de-realidade-mista-ganham-preco-mais-acessivel</link>
       <guid isPermaLink="true">https://example.com/noticia/headsets-de-realidade-mista-ganham-preco-mais-acessivel</guid>
-      <description>O setor tenta sair do nicho premium e provar valor em treinamento, suporte remoto e visualização de produto.</description>
+      <description>A tecnologia busca provas de valor em treinamento, suporte remoto e visualização de projetos, em vez de ser apenas uma promessa futurista.</description>
       <pubDate>Tue, 02 Jun 2026 11:55:00 GMT</pubDate>
       <category>Gadgets</category>
     </item>

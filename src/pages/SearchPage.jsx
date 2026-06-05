@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import AdSlot from '../components/AdSlot';
 import ArticleCard from '../components/ArticleCard';
 import Breadcrumbs from '../components/Breadcrumbs';
 import SEO from '../components/SEO';
@@ -58,6 +59,10 @@ export default function SearchPage() {
           <button type="submit">Buscar</button>
         </form>
       </section>
+
+      <div className="home-ad">
+        <AdSlot placement="banner" label="Banner de busca" />
+      </div>
 
       <section className="home-section">
         <div className="results-meta">
