@@ -83,9 +83,9 @@ export default function AdSlot({ placement = 'banner', label = 'Espaço reservad
     return (
       <aside className={className} aria-label={label} data-nosnippet="true">
         <div className="ad-slot__placeholder">
-          <span className="ad-slot__label">Espaço publicitário</span>
+          <span className="ad-slot__label">Publicidade inativa</span>
           <strong>{label}</strong>
-          <p>Defina `VITE_ADSENSE_CLIENT` e o slot correspondente para ativar a publicidade.</p>
+          <p>Este espaço está reservado para anúncios. A publicidade aparecerá quando os parâmetros de AdSense estiverem configurados.</p>
         </div>
       </aside>
     );
