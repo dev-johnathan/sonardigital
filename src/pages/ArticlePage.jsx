@@ -165,10 +165,10 @@ export default function ArticlePage() {
 function SectionIntro() {
   return (
     <div className="panel panel--soft">
-      <span className="eyebrow">Próximo passo</span>
-      <h2>O texto foi preparado para publicação com suporte a SEO e monetização</h2>
+      <span className="eyebrow">Continue lendo</span>
+      <h2>Veja outras matérias que podem interessar</h2>
       <p>
-        O modelo já inclui canonical, Article schema, breadcrumbs e espaço para anúncios. Atualize com sua cobertura tecnológica e mantenha a leitura alinhada à monetização responsiva.
+        Estes temas estão conectados à pauta principal e levam você mais fundo em SEO, infraestrutura e inovação no ecossistema de tecnologia.
       </p>
     </div>
   );
