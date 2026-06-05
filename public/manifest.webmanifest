@@ -1,0 +1,16 @@
+{
+  "name": "Sonar Digital",
+  "short_name": "Sonar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f3ea",
+  "theme_color": "#07111f",
+  "description": "Portal de notícias de tecnologia com foco em SEO, Google e AdSense.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

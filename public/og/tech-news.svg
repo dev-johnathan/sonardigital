@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Sonar Digital">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111f" />
+      <stop offset="55%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="18%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="200" cy="160" r="170" fill="url(#glow)" />
+  <circle cx="980" cy="120" r="160" fill="#14b8a6" opacity="0.15" />
+  <circle cx="1040" cy="500" r="220" fill="#3b82f6" opacity="0.12" />
+  <rect x="78" y="84" width="1044" height="462" rx="36" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)" />
+  <path d="M132 456h936" stroke="rgba(255,255,255,0.14)" stroke-width="2" />
+  <text x="132" y="190" fill="#8be2d7" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="5">
+    SONAR DIGITAL
+  </text>
+  <text x="132" y="292" fill="#ffffff" font-family="Space Grotesk, Arial, sans-serif" font-size="72" font-weight="700">
+    Notícias de tecnologia
+  </text>
+  <text x="132" y="368" fill="#d6e0ee" font-family="Manrope, Arial, sans-serif" font-size="32" font-weight="500">
+    SEO, Google News e AdSense com estrutura pronta para escalar
+  </text>
+  <rect x="132" y="412" width="260" height="10" rx="5" fill="url(#accent)" />
+  <g transform="translate(820 184)">
+    <rect x="0" y="0" width="180" height="180" rx="36" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" />
+    <path d="M38 64h72c36 0 58 22 58 48s-22 46-56 46h-26v36h-48V64zm48 34v26h20c13 0 20-5 20-13s-7-13-20-13h-20z" fill="#fff"/>
+  </g>
+</svg>

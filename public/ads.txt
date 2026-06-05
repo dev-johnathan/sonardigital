@@ -1,0 +1,3 @@
+# Configure VITE_ADSENSE_PUBLISHER_ID before production.
+# Example:
+# google.com, pub-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
